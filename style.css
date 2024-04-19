@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+ 
+  header {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    color: green;
+  }
+ 
+  nav {
+    background-color: yellow;
+  }
+ 
+ 
+  .main-content {
+    display: flex;
+    flex: 1;
+  }
+ 
+  .section {
+    flex: 1;
+    padding: 10px;
+  }
+ 
+  #section1 { background-color: blue; }
+  #section2 { background-color: grey; }
+  #section3 { background-color: purple; }
+ 
+  .article {
+    flex: 3;
+    background-color: teal;
+  }
+ 
+  .aside {
+    flex: 1;
+    background-color: olive;
+  }
+ 
+  footer {
+    background-color: navy;
+    color: white;
+  }
+

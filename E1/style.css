@@ -1,0 +1,34 @@
+body {
+    display: grid;
+}
+body {
+    display: grid;
+    grid-template-areas:
+      "cima cima cima"
+      "ladoesquerdo ladodireito ladodireito"
+}  
+.cima {
+    grid-area: cima;
+    
+    
+    background-color: rgb(43, 211, 118);
+  }
+  
+.ladoesquerdo {
+    grid-area: ladoesquerdo;
+    
+    background-color: rgb(221, 14, 14);
+}
+  
+.ladodireito {
+    grid-area: ladodireito;
+    background-color: aqua;
+}
+  
+body {
+	grid-gap: 1rem;
+} 
+body {
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 25vh 50vh;
+  }   
